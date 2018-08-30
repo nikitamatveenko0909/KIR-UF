@@ -1,0 +1,70 @@
+body{
+    background-image: url("../bilder/background.jpg") ;
+    
+}
+
+.menuul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menuli {
+    float: left;
+}
+
+.menuli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 42px;
+    text-decoration: none;
+}
+.active {
+    background-color: #FF5731;
+}
+.menuli a:hover {
+    background-color: #9B4430;
+}
+.whitebox{
+
+    background: url("../bilder/text-background.png");
+    width:720px;
+    height:990px;
+    top:500px;
+    left:500px;
+    border:black solid;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.whiteboxchild{
+    position: absolute;
+    opacity: 1;
+}
+h1{
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+p{
+    text-align: left;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size:15px;
+    padding:20px;
+}
+.pic{
+    width:17%;
+    height: 15.5%;
+    float:left;
+    border-radius: 50%;
+    border: 1.5px black solid;
+    margin: 15px;
+}
+.names{
+    text-align: left;
+}
+.text{
+    padding-right: 50px;
+}
