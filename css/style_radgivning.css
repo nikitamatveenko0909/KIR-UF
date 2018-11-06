@@ -67,4 +67,22 @@ p{
     float:left;
     display: flex;
 }
+button{
+    width: 160px;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    background-color: #FF5731; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.areyou{
+    text-align: center;
+}
 
