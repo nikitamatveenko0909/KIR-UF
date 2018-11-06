@@ -1,5 +1,6 @@
 body{
     background-image: url("../bilder/background2.jpg") ;
+    background-attachment: fixed;
     
 }
 
@@ -35,7 +36,7 @@ body{
 }
 
 .whitebox{
-
+    
     background: url("../bilder/text-background.png");
     width:720px;
     height:680px;
@@ -58,13 +59,34 @@ body{
     font-size: 46px;
 }
 p{
-    text-align: left;
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size:15px;
-    padding:20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size:18px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
 }
 .allt{
-    float:left;
-    display: flex;
+   
+    
 }
+button{
+    width: 160px;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    background-color: #FF5731; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.areyou{
+    text-align: center;
+}
+
 
