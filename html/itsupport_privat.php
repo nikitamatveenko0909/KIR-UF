@@ -29,7 +29,7 @@
 En utav våra tre tjänster på vårat företag är IT-support, där vi hjälper dig med dina frågor och problem inom IT.
 För att få IT-support så behöver du skriva ett mail till oss. Detta gör du genom att trycka på knappen nedan.</p>
 <div class="formular">
-    <form action="submit.php" method="POST/GET">
+    <form action="submit_foretag.php" method="POST/GET">
         <label for="name"><p>Namn</p></label>
         <input type="text" id="name" name="name" placeholder="Ditt namn...">
     <br>

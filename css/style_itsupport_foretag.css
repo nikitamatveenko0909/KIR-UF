@@ -66,7 +66,34 @@ p{
     padding-right: 30px;
     padding-top: 10px;
 }
+input[type=text], select, textarea {
+    
+    width: 65%;
+    padding: 12px 20px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.formular{
+    text-align: center;
+}
 
+#problem{
+    height: 80px;
+    text-align: left;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #FF5731;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
 
