@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
     $(".itsupport").click(function(){
         $(".skr").css("display", "inline");
-        $("#privat").click(function(){redirect("itsupport_privat.html");});
+        $("#privat").click(function(){redirect("itsupport_privat.php");});
         $("#foretag").click(function(){redirect("itsupport_foretag.html");});
     });
     $(".radgivning").click(function(){

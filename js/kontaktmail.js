@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".jagvill1").click(function(){
-        $(".email").text("Email: kirungdomsforetag@gmail.com");
+        $(".email").text("Email: kontakt@kiruf.se");
         $(".namn").text("Namn: KIR-UF");
         $(".roll").text("Roll: -");
     });
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $(".roll").text("Roll: försäljnings och webbansvarig");
     });
     $(".jagvill4").click(function(){
-        $(".email").text("Email: kirungdomsforetag@gmail.com");
+        $(".email").text("Email: kontakt@kiruf.se");
         $(".namn").text("Namn: KIR-UF");
         $(".roll").text("Roll: -");
     });
